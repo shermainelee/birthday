@@ -27,3 +27,7 @@ if slug and slug in slug_to_guest:
 else:
     st.title("Oops!")
     st.write("Error")
+
+st.write("Query params:", query_params)
+st.write("Slug:", slug)
+st.write("Available slugs:", list(slug_to_guest.keys()))
