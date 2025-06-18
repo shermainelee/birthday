@@ -26,4 +26,4 @@ if slug and slug in slug_to_guest:
 
 else:
     st.title("Oops!")
-    st.write("We couldn't find your invite. Double-check your link!")
+    st.write("Error")
